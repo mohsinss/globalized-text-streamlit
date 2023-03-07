@@ -89,7 +89,7 @@ def get_text():
 email_input = get_text()
 
 if len(email_input.split(" ")) > 700:
-    st.write("Please enter a shorter email. The maximum length is 700 words.")
+    st.write("PPlease enter a shorter email. The maximum length is 700 words.")
     st.stop()
 
 def update_text_with_example():
