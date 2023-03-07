@@ -3,10 +3,11 @@ from langchain import PromptTemplate
 from langchain.llms import OpenAI
 import os
 from dotenv import load_dotenv
+from dotenv import Dotenv
+
 
 load_dotenv()
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-
+OPENAI_API_KEY = os.dotenv('OPENAI_API_KEY')
 
 template = """
     Below is an email that may be poorly worded.
