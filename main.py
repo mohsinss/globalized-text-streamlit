@@ -18,7 +18,7 @@ template = """
     Here are some examples different Tones:
     - Formal: We went to Barcelona for the weekend. We have a lot of things to tell you.
     - Informal: Went to Barcelona for the weekend. Lots to tell you.  
-    - Direct: Went to Barcelona for the weekend.  
+    - Direct: Went to Barcelona for the weekend..  
 
     
     Here are some examples of words in different dialects:
