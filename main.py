@@ -3,7 +3,6 @@ from langchain import PromptTemplate
 from langchain.llms import OpenAI
 import os
 from dotenv import load_dotenv
-from dotenv import Dotenv
 
 
 load_dotenv()
